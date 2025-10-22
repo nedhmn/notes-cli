@@ -2,6 +2,19 @@
 
 Markdown notes with a CLI tool.
 
+> [!NOTE]
+> Requires Cursor CLI (`cursor` command) for auto-opening files.
+
+## Installation
+
+```bash
+git clone https://github.com/nedhmn/notes-cli.git
+cd notes-cli
+pnpm install
+```
+
+**VSCode Extension:** Install [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) for automatic TOC generation and formatting on save.
+
 ## Structure
 
 ```
@@ -19,5 +32,3 @@ Markdown notes with a CLI tool.
 ```bash
 pnpm note
 ```
-
-**Note:** Requires Cursor CLI (`cursor` command) for auto-opening files.
