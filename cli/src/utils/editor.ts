@@ -2,11 +2,11 @@ import { spawn } from 'node:child_process';
 
 /**
  * Open a file in the user's preferred editor
- * Uses $EDITOR environment variable, falls back to 'cursor'
+ * Uses $EDITOR environment variable, falls back to 'code'
  * If no editor is available, silently skips
  */
 export async function openInEditor(filePath: string, line?: number): Promise<void> {
-  const editor = process.env.EDITOR || 'cursor';
+  const editor = process.env.EDITOR || 'code';
   const editorName = editor.toLowerCase();
 
   let args: string[];

@@ -3,7 +3,7 @@
 Markdown notes with a CLI tool.
 
 > [!NOTE]
-> Requires Cursor CLI (`cursor` command) for auto-opening files.
+> Requires VS Code CLI (`code` command) for auto-opening files.
 
 ## Installation
 
