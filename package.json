@@ -1,0 +1,16 @@
+{
+  "name": "notes-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal markdown notes repository",
+  "type": "module",
+  "scripts": {
+    "note": "node cli/bin/note.js"
+  },
+  "keywords": [
+    "notes",
+    "markdown"
+  ],
+  "author": "",
+  "license": "MIT"
+}

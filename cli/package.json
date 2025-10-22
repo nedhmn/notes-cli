@@ -1,0 +1,30 @@
+{
+  "name": "notes-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CLI tool for managing markdown notes",
+  "bin": {
+    "note": "./bin/note.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node bin/note.js"
+  },
+  "keywords": [
+    "notes",
+    "markdown",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "latest",
+    "glob": "^11.0.3"
+  }
+}
